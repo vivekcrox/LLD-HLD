@@ -1,6 +1,6 @@
 package WithStrategyPattern.Strategy;
 
-public class NormalDriveStrategy implements DeriveStrategy {
+public class NormalDriveStrategy implements DriveStrategy {
 
     @Override
     public void drive () {
